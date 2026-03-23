@@ -1,5 +1,5 @@
-## Часть 1 https://github.com/Kokunov777/User_interfce
-
+### Часть 1 https://github.com/Kokunov777/User_interfce
+### часть 3 https://github.com/Kokunov777/Development_of_a_parser.git
 
  # Лабораторная работа 2: Разработка лексического анализатора (сканера)
 
