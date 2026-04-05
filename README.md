@@ -1,4 +1,4 @@
-![Диаграмма без названия drawio](https://github.com/user-attachments/assets/c3468130-ae0e-433a-ac5b-a289d641750b)[Диаграмма без названия.drawio](https://github.com/user-attachments/files/26486198/default.drawio)### Часть 1 https://github.com/Kokunov777/User_interfce
+### Часть 1 https://github.com/Kokunov777/User_interfce
 ### часть 3 
 
  # Лабораторная работа 2: Разработка лексического анализатора (сканера)
@@ -18,7 +18,7 @@
 **Вариант 5**: Объявление комплексного числа с инициализацией на языке Rust
 
 ## Диаграмма состояний
-<img width="479" height="927" alt="image" src="https://github.com/user-attachments/assets/b61c05db-1d6d-4c92-ab49-1e779c37bdea" />
+[<img width="479" height="927" alt="image" src="https://github.com/user-attachments/assets/b61c05db-1d6d-4c92-ab49-1e779c37bdea" />](https://app.diagrams.net/?src=about)
 
 
 
