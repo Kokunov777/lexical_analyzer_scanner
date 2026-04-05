@@ -11,7 +11,7 @@ def test_basic():
         print(f"  {token.type.name:15} {token.lexeme:20} {token.start_line}:{token.start_col}-{token.end_line}:{token.end_col}")
     for err in errors:
         print(f"  ERROR line {err.line}:{err.column} {err.message}")
-    expected_count = 23
+    expected_count = 24
     assert len(tokens) == expected_count, f"Expected {expected_count} tokens, got {len(tokens)}"
     assert len(errors) == 0, f"Expected no errors, got {len(errors)}"
     assert tokens[0].type == TokenType.KEYWORD
@@ -44,10 +44,12 @@ def test_basic():
     assert tokens[17].lexeme == "3.1"
     assert tokens[18].type == TokenType.SEPARATOR
     assert tokens[18].lexeme == ","
-    assert tokens[20].type == TokenType.FLOAT
-    assert tokens[20].lexeme == "-4.2"
-    assert tokens[22].type == TokenType.END_OF_STATEMENT
-    assert tokens[22].lexeme == ";"
+    assert tokens[20].type == TokenType.OPERATOR
+    assert tokens[20].lexeme == "-"
+    assert tokens[21].type == TokenType.FLOAT
+    assert tokens[21].lexeme == "4.2"
+    assert tokens[23].type == TokenType.END_OF_STATEMENT
+    assert tokens[23].lexeme == ";"
     print("Test passed.")
 
 if __name__ == "__main__":

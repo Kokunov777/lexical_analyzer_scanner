@@ -101,10 +101,8 @@ class RustScanner:
             return
         
 
-        if ch.isdigit() or (ch == '-' and self.i + 1 < self.n and self.text[self.i+1].isdigit()):
+        if ch.isdigit():
             j = self.i
-            if ch == '-':
-                j += 1
             has_dot = False
             while j < self.n and (self.text[j].isdigit() or (self.text[j] == '.' and not has_dot)):
                 if self.text[j] == '.':
@@ -112,8 +110,8 @@ class RustScanner:
                 j += 1
            
             if has_dot and j > self.i + 1 and self.text[j-1] == '.':
-                j -= 1  
-                has_dot = False  
+                j -= 1
+                has_dot = False
             lexeme = self.text[self.i:j]
             token_type = TokenType.FLOAT if has_dot else TokenType.INTEGER
             self.tokens.append(Token(token_type, lexeme, start_line, start_col, self.line, self.col + (j - self.i) - 1))
@@ -127,7 +125,13 @@ class RustScanner:
             self.col += 1
             return
         
-     
+        if ch == '-':
+            self.tokens.append(Token(TokenType.OPERATOR, '-', start_line, start_col, self.line, self.col))
+            self.i += 1
+            self.col += 1
+            return
+        
+      
         if ch == ':':
             self.tokens.append(Token(TokenType.COLON, ':', start_line, start_col, self.line, self.col))
             self.i += 1
