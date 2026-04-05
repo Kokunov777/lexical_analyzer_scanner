@@ -19,7 +19,8 @@
 
 ## Диаграмма состояний
 
-<img width="643" height="1510" alt="new_diagramm drawio" src="https://github.com/user-attachments/assets/3e880e6a-f53a-44ef-ab07-9adeaa47a825" />
+<img width="441" height="876" alt="image" src="https://github.com/user-attachments/assets/8f639837-bb47-4021-8afa-90526f0927b2" />
+
 
 ## Тестовые примеры
 ### Пример 1: 
