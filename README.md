@@ -18,8 +18,8 @@
 **Вариант 5**: Объявление комплексного числа с инициализацией на языке Rust
 
 ## Диаграмма состояний
-https://app.diagrams.net/?src=about
 
+<img width="643" height="1510" alt="new_diagramm drawio" src="https://github.com/user-attachments/assets/3e880e6a-f53a-44ef-ab07-9adeaa47a825" />
 
 ## Тестовые примеры
 ### Пример 1: 
