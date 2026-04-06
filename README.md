@@ -19,6 +19,7 @@
 
 ## Диаграмма состояний
 <img width="572" height="885" alt="image" src="https://github.com/user-attachments/assets/372be896-1504-4d6d-94d4-2cc33bc7f51f" />
+<img width="472" height="539" alt="image" src="https://github.com/user-attachments/assets/71310039-1354-450d-85e2-64dc6305e038" />
 
 
 ## Тестовые примеры
